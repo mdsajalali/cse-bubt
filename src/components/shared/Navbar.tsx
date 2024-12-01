@@ -38,11 +38,7 @@ export default function Navbar() {
           {/* Logo */}
           <li className="block px-3 max-lg:border-b max-lg:pb-4 lg:hidden">
             <a>
-              <img
-                src="https://readymadeui.com/readymadeui.svg"
-                alt="logo"
-                className="w-36"
-              />
+              <img src="/bubtlogo.png" alt="logo" className="w-36" />
             </a>
           </li>
           {/* Menu Items */}
