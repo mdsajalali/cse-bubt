@@ -1,4 +1,4 @@
-import TopNavbar from "@/components/core/TopNavbar";
+import TopNavbar from "@/components/core/nav/TopNavbar";
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 

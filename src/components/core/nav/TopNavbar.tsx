@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Container from "../shared/Container";
+import Container from "../../shared/Container";
+import NavSlider from "./NavSidebar";
 
 const iconData = [
   { src: "/icons/nx.png", alt: "nx" },
@@ -23,7 +24,7 @@ export default function TopNavbar() {
               alt="header logo"
               width={500}
               height={500}
-              className="h-auto max-w-full"
+              className="hidden h-auto max-w-full xl:block"
             />
           </div>
           <div className="w-full md:w-auto">
@@ -32,6 +33,9 @@ export default function TopNavbar() {
                 {iconData.map(({ src, alt }) => (
                   <Image key={alt} src={src} alt={alt} width={20} height={20} />
                 ))}
+                <div className="xl:hidden">
+                  <NavSlider />
+                </div>
               </div>
               <input
                 className="mt-2 w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-2 text-sm text-gray-700 placeholder-gray-400 focus:border-primary focus:bg-white focus:outline-none focus:ring-1 focus:ring-primary md:mt-0 md:w-auto"
