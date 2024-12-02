@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import {
   Mail,
   MapPin,
@@ -12,7 +11,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-teal-900 py-10 text-white">
+    <footer className="bg-primary py-10 text-white">
       {/* Top Section */}
 
       <div>
@@ -25,7 +24,7 @@ const Footer = () => {
           />
           <h1>BUBT</h1>
           <h1>Bangladesh University of Business and Technology</h1>
-          <div className="grid pt-5 grid-cols-1 place-items-center gap-2 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid grid-cols-1 place-items-center gap-2 pt-5 sm:grid-cols-2 md:grid-cols-3">
             <div className="flex gap-1">
               <MapPin />
               <p>Rupnagar, Mirpur-2, Dhaka-1216</p>
@@ -165,7 +164,7 @@ const Footer = () => {
       </div>
 
       {/* Divider */}
-      <div className="mt-8 border-t border-teal-700" />
+      <div className="border-primary mt-8 border-t" />
 
       {/* Bottom Section */}
       <div className="container mx-auto mt-6 flex flex-col items-center justify-between space-y-4 px-4 lg:flex-row lg:space-y-0">

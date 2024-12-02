@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="relative z-50 bg-white font-[sans-serif] tracking-wide shadow-md">
+    <header className="bg-primary relative z-50 font-[sans-serif] tracking-wide shadow-md">
       <div className="relative flex flex-wrap justify-center px-10 py-3">
         {/* Mobile menu button */}
         <div onClick={handleMenuToggle} className="ml-auto flex lg:hidden">
@@ -45,17 +45,16 @@ export default function Navbar() {
           <li className="max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-[#007bff] hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white hover:text-white"
             >
               Home
             </a>
           </li>
-
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -76,7 +75,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -84,7 +83,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -92,7 +91,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -100,7 +99,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -108,7 +107,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -116,19 +115,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
           </li>
-
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -149,7 +147,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -157,7 +155,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -165,7 +163,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -173,7 +171,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -181,7 +179,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -189,19 +187,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
           </li>
-
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -222,7 +219,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -230,7 +227,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -238,7 +235,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -246,7 +243,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -254,7 +251,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -262,19 +259,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
           </li>
-
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -295,7 +291,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -303,7 +299,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -311,7 +307,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -319,7 +315,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -327,7 +323,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -335,19 +331,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
-          </li>
-
+          </li>{" "}
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -368,7 +363,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -376,7 +371,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -384,7 +379,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -392,7 +387,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -400,7 +395,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -408,19 +403,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
-          </li>
-
+          </li>{" "}
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -441,7 +435,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -449,7 +443,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -457,7 +451,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -465,7 +459,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -473,7 +467,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -481,19 +475,18 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
-          </li>
-
+          </li>{" "}
           {/* Dropdown Example */}
           <li className="group relative uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               About cse
               <svg
@@ -514,7 +507,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   vision of cse
                 </a>
@@ -522,7 +515,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   mission of cse
                 </a>
@@ -530,7 +523,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   messages from the chairman
                 </a>
@@ -538,7 +531,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   industry advisory panel
                 </a>
@@ -546,7 +539,7 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   achievement
                 </a>
@@ -554,18 +547,17 @@ export default function Navbar() {
               <li className="border-b py-3">
                 <a
                   href="javascript:void(0)"
-                  className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+                  className="block text-[15px] font-semibold text-gray-600"
                 >
                   Why cse at bubt?
                 </a>
               </li>
             </ul>
           </li>
-
           <li className="uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               ALUMNI
             </a>
@@ -573,7 +565,7 @@ export default function Navbar() {
           <li className="uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               gallery
             </a>
@@ -581,7 +573,7 @@ export default function Navbar() {
           <li className="uppercase max-lg:border-b max-lg:px-3 max-lg:py-3">
             <a
               href="javascript:void(0)"
-              className="block text-[15px] font-semibold text-gray-600 hover:text-[#007bff]"
+              className="block text-[15px] font-semibold text-white"
             >
               contact
             </a>
