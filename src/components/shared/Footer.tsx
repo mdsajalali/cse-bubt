@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary py-10 text-white">
+    <footer className="bg-primary py-5 text-white md:py-10">
       <Container>
         {/* Top Section */}
 
@@ -26,7 +26,7 @@ const Footer = () => {
               height={100}
             />
             <h1 className="py-1 text-2xl font-bold">BUBT</h1>
-            <h1 className="text-[20px] font-semibold">
+            <h1 className="text-center text-[20px] font-semibold md:text-start">
               Bangladesh University of Business and Technology
             </h1>
             <div className="grid grid-cols-1 place-items-center gap-2 pt-5 sm:grid-cols-2 md:grid-cols-3">
@@ -48,9 +48,9 @@ const Footer = () => {
           {/* Divider */}
           <div className="mt-8 border-t border-[#81B0CC]" />
 
-          <div className="grid grid-cols-12 place-items-center gap-[70px] py-10">
+          <div className="grid grid-cols-1 gap-8 py-10 sm:grid-cols-2 sm:gap-[40px] md:grid-cols-3 md:place-items-center xl:gap-[70px] lg:grid-cols-12">
             <div className="col-span-2">
-              <h1 className="text-[18px] font-semibold uppercase">
+              <h1 className="fot-semibold text-[18px] uppercase">
                 Student Corner
               </h1>
               <ul className="mt-8">
@@ -190,7 +190,7 @@ const Footer = () => {
           {/* Copyright */}
           <p className="text-center text-sm font-semibold lg:text-left">
             &copy; 2024 BUBT-CSE All Rights Reserved.{" "}
-            <span className="ml-10">Total Page Views:</span>
+            <span className="md:ml-10">Total Page Views:</span>
             1,978,249
             <br />
             <Link
