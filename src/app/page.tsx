@@ -1,3 +1,4 @@
+import Chairman from "@/components/core/chairman/Chairman";
 import Hero from "@/components/core/Hero";
 import TopNavbar from "@/components/core/nav/TopNavbar";
 import Footer from "@/components/shared/Footer";
@@ -9,6 +10,7 @@ export default function page() {
       <TopNavbar />
       <Navbar />
       <Hero />
+      <Chairman />
       <Footer />
     </>
   );
