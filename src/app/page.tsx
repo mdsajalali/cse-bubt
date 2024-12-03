@@ -1,3 +1,4 @@
+import AdmissionCallback from "@/components/core/AdmissionCallback";
 import Chairman from "@/components/core/chairman/Chairman";
 import Hero from "@/components/core/Hero";
 import TopNavbar from "@/components/core/nav/TopNavbar";
@@ -11,6 +12,7 @@ export default function page() {
       <Navbar />
       <Hero />
       <Chairman />
+      <AdmissionCallback />
       <Footer />
     </>
   );
