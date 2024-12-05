@@ -1,5 +1,5 @@
 "use client";
-
+import { ReactTyped } from "react-typed";
 import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -62,7 +62,15 @@ export default function Hero() {
                   </h1>
                   <h2 className="mb-2 px-10 text-xl font-semibold md:px-0 md:text-2xl">
                     We Provide B.SC. in CSE{" "}
-                    <span className="text-primary">(Regular)</span> Program
+                    <span className="text-primary">
+                      <ReactTyped
+                        strings={["(Regular)", "(Diploma Holders)"]}
+                        typeSpeed={40}
+                        backSpeed={50}
+                        loop
+                      />
+                    </span>
+                    Program
                   </h2>
                   <h3 className="text-[16px] font-light uppercase md:text-xl">
                     Thanks for being with us
