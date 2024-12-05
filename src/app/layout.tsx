@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ScrollTop from "@/components/core/ScrollTop";
 
 export const metadata: Metadata = {
   title: "CSE:BUBT - Bangladesh University of Business and Technology",
@@ -13,7 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Scroll Top */}
+        <ScrollTop />
+      </body>
     </html>
   );
 }

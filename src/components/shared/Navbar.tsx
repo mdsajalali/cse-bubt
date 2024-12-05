@@ -76,7 +76,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <div className="hidden bg-primary py-4 text-white xl:block">
+    <div className="sticky top-0 z-50 hidden bg-primary py-4 text-white shadow-lg xl:block">
       <Container>
         <div className="flex items-center justify-between gap-5 xl:gap-7">
           <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
