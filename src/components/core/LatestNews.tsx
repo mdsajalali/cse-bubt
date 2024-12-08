@@ -57,7 +57,7 @@ const data: Record<string, NewsItem[]> = {
     {
       title: "Cyber Security - Prospects and Challenges",
       date: "Tue 20 Oct 2020",
-      image: "/latest_news/seven.jpg",
+      image: "/latest_news/one.jpg",
     },
   ],
   workshop: [
