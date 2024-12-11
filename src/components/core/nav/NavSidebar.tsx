@@ -140,12 +140,16 @@ export default function NavSlider() {
           ))}
 
           <div className="mt-2 flex flex-col gap-5">
-            <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-              Alumni
-            </span>
-            <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-              gallery
-            </span>
+            <Link href="/alumni">
+              <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+                Alumni
+              </span>
+            </Link>
+            <Link href="/gallery">
+              <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+                gallery
+              </span>
+            </Link>
             <Link href="/contact">
               <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
                 contact

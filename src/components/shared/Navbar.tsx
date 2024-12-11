@@ -99,12 +99,16 @@ export default function Navbar() {
               }
             />
           ))}
-          <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-            Alumni
-          </span>
-          <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-            Gallery
-          </span>
+          <Link href="/alumni">
+            <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+              Alumni
+            </span>
+          </Link>
+          <Link href="/gallery">
+            <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+              Gallery
+            </span>
+          </Link>
           <Link href="/contact">
             <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
               Contact
