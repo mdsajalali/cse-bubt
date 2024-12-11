@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ScrollTop from "@/components/core/ScrollTop";
+import TopNavbar from "@/components/core/nav/TopNavbar";
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export const metadata: Metadata = {
   title: "CSE:BUBT - Bangladesh University of Business and Technology",
@@ -15,9 +18,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* Navbar */}
+        <TopNavbar />
+        <Navbar />
         {children}
         {/* Scroll Top */}
         <ScrollTop />
+        {/* Footer */}
+        <Footer />
       </body>
     </html>
   );

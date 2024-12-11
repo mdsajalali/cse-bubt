@@ -3,21 +3,15 @@ import BubtCseReason from "@/components/core/BubtCseReason";
 import Chairman from "@/components/core/chairman/Chairman";
 import Hero from "@/components/core/Hero";
 import LatestNews from "@/components/core/LatestNews";
-import TopNavbar from "@/components/core/nav/TopNavbar";
-import Footer from "@/components/shared/Footer";
-import Navbar from "@/components/shared/Navbar";
 
 export default function page() {
   return (
     <>
-      <TopNavbar />
-      <Navbar />
       <Hero />
       <Chairman />
       <LatestNews />
       <BubtCseReason />
       <AdmissionCallback />
-      <Footer />
     </>
   );
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import NavItemsDropdown from "../core/nav/NavItemsDropdown";
 import Container from "./Container";
 import { ChevronDown } from "lucide-react";
@@ -104,9 +105,11 @@ export default function Navbar() {
           <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
             Gallery
           </span>
-          <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-            Contact
-          </span>
+          <Link href="/contact">
+            <span className="leading-12 cursor-pointer text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+              Contact
+            </span>
+          </Link>
         </div>
       </Container>
     </div>

@@ -146,9 +146,11 @@ export default function NavSlider() {
             <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
               gallery
             </span>
-            <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
-              contact
-            </span>
+            <Link href="/contact">
+              <span className="leading-12 text-[11px] font-medium uppercase hover:opacity-85 2xl:text-xs">
+                contact
+              </span>
+            </Link>
           </div>
         </Accordion>
       </SheetContent>
