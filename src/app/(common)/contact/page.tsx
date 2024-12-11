@@ -1,4 +1,5 @@
 import ContactForm from "@/components/core/contact/ContactForm";
+import Location from "@/components/core/contact/Location";
 import Cover from "@/components/shared/Cover";
 
 export default function page() {
@@ -11,6 +12,7 @@ export default function page() {
         titleLink="/"
       />
       <ContactForm />
+      <Location />
     </div>
   );
 }
