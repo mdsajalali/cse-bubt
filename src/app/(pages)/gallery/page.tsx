@@ -2,6 +2,7 @@ import GalleryContent from "@/components/core/gallery/GalleryContent";
 import Container from "@/components/shared/Container";
 import Cover from "@/components/shared/Cover";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -14,8 +15,8 @@ export default function page() {
         titleLink="/"
       />
       <Container>
-        <div className="flex items-center flex-wrap gap-5 py-10">
-          <div className="group rounded border p-2">
+        <div className="flex flex-wrap items-center gap-5 py-10">
+          <Link href="/gallery/1" className="group rounded border p-2">
             <div className="overflow-hidden rounded">
               <Image
                 src="/gallery/four.jpeg"
@@ -28,8 +29,8 @@ export default function page() {
             <h1 className="pt-1 text-center text-[20px] font-medium">
               BUBT 5th Convocation at BCCI
             </h1>
-          </div>
-          <div className="group rounded border p-2">
+          </Link>
+          <Link href="/gallery/2" className="group rounded border p-2">
             <div className="overflow-hidden rounded">
               <Image
                 src="/gallery/six.jpeg"
@@ -42,7 +43,7 @@ export default function page() {
             <h1 className="pt-1 text-center text-[20px] font-medium">
               Our Beauty Campus
             </h1>
-          </div>
+          </Link>
         </div>
       </Container>
     </div>
