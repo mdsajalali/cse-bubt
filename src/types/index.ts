@@ -15,3 +15,10 @@ export type CoverType = {
   titleLink: string;
   subTitleLink?: string;
 };
+
+// AchievementCardProps
+export type AchievementCardProps = {
+  title: string;
+  date: string;
+  image: string;
+};
