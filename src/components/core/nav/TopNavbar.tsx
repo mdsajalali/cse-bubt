@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "../../shared/Container";
 import NavSlider from "./NavSidebar";
+import Link from "next/link";
 
 const iconData = [
   { src: "/icons/nx.png", alt: "nx" },
@@ -19,13 +20,15 @@ export default function TopNavbar() {
       <Container>
         <div className="flex flex-col items-center gap-5 md:justify-between lg:flex-row">
           <div className="flex justify-center md:justify-start">
-            <Image
-              src="/bubt_header_logo.png"
-              alt="header logo"
-              width={500}
-              height={500}
-              className="hidden h-auto max-w-full xl:block"
-            />
+            <Link href="/">
+              <Image
+                src="/bubt_header_logo.png"
+                alt="header logo"
+                width={500}
+                height={500}
+                className="hidden h-auto max-w-full xl:block"
+              />
+            </Link>
           </div>
           <div className="w-full md:w-auto">
             <div className="flex flex-col items-center gap-2 md:flex-row md:items-center">

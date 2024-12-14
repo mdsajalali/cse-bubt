@@ -1,4 +1,3 @@
-import GalleryContent from "@/components/core/gallery/GalleryContent";
 import Container from "@/components/shared/Container";
 import Cover from "@/components/shared/Cover";
 import Image from "next/image";
