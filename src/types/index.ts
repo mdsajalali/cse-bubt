@@ -18,6 +18,7 @@ export type CoverType = {
 
 // AchievementCardProps
 export type AchievementCardProps = {
+  id: number;
   title: string;
   date: string;
   image: string;

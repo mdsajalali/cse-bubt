@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Industry Advisory Panel",
     "image": "/achievements/nature.jpg",
     "date": "Sat 09 Oct 2021",
@@ -8,6 +9,7 @@
     "thumbnail_image_description": "A thumbnail image of the Industry Advisory Panel event"
   },
   {
+    "id": 2,
     "title": "Computer Science Symposium",
     "image": "/achievements/nature.jpg",
     "date": "Mon 12 Dec 2022",
@@ -16,6 +18,7 @@
     "thumbnail_image_description": "A thumbnail image representing the Computer Science Symposium"
   },
   {
+    "id": 3,
     "title": "Tech Talks with Industry Experts",
     "image": "/achievements/nature.jpg",
     "date": "Wed 15 Nov 2023",

@@ -50,8 +50,8 @@ export default function Page() {
           </div>
         </div>
         {/* Content */}
-        {achievements?.map((achievement, index) => (
-          <AchievementCard key={index} {...achievement} />
+        {achievements?.map((achievement) => (
+          <AchievementCard key={achievement.id} {...achievement} />
         ))}
       </Container>
     </>
