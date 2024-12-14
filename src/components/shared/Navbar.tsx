@@ -14,7 +14,7 @@ const navItems = [
       { label: "Message from the Chairman", link: "/message" },
       { label: "Industry Advisory Panel", link: "/advisory" },
       { label: "Achievement", link: "/achievement" },
-      { label: "Why CSE at BUBT?", link: "/why-cse" },
+      { label: "Why CSE at BUBT?", link: "/why-cse-at-bubt" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const navItems = [
       { label: "published articles", link: "/message" },
       { label: "capstone projects", link: "/advisory" },
       { label: "projects", link: "/achievement" },
-      { label: "activities & collaboration", link: "/why-cse" },
+      { label: "activities & collaboration", link: "/why-cse-at-bubt" },
     ],
   },
   {
@@ -70,7 +70,7 @@ const navItems = [
       { label: "it service for students", link: "/message" },
       { label: "career opportunities", link: "/advisory" },
       { label: "career guidance", link: "/achievement" },
-      { label: "cse office of communications", link: "/why-cse" },
+      { label: "cse office of communications", link: "/why-cse-at-bubt" },
     ],
   },
 ];
