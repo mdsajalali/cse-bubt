@@ -11,7 +11,7 @@ const navItems = [
     submenu: [
       { label: "Vision of CSE", link: "/vision" },
       { label: "Mission of CSE", link: "/mission" },
-      { label: "Message from the Chairman", link: "/message" },
+      { label: "chairman-message from the Chairman", link: "/chairman-message" },
       { label: "Industry Advisory Panel", link: "/advisory" },
       { label: "Achievement", link: "/achievement" },
       { label: "Why CSE at BUBT?", link: "/why-cse-at-bubt" },
@@ -29,7 +29,7 @@ const navItems = [
     submenu: [
       { label: "admission information", link: "/vision" },
       { label: "tuition fee & waiver", link: "/mission" },
-      { label: "admission requirements", link: "/message" },
+      { label: "admission requirements", link: "/chairman-message" },
       { label: "apply online", link: "/advisory" },
     ],
   },
@@ -38,7 +38,7 @@ const navItems = [
     submenu: [
       { label: "Faculty members", link: "/vision" },
       { label: "lab assistants", link: "/mission" },
-      { label: "it officers", link: "/message" },
+      { label: "it officers", link: "/chairman-message" },
       { label: "administrative staffs", link: "/advisory" },
     ],
   },
@@ -47,7 +47,7 @@ const navItems = [
     submenu: [
       { label: "class routine", link: "/vision" },
       { label: "exam routine", link: "/mission" },
-      { label: "study tour", link: "/message" },
+      { label: "study tour", link: "/chairman-message" },
       { label: "industry visit", link: "/advisory" },
     ],
   },
@@ -56,7 +56,7 @@ const navItems = [
     submenu: [
       { label: "research field", link: "/vision" },
       { label: "research laboratories", link: "/mission" },
-      { label: "published articles", link: "/message" },
+      { label: "published articles", link: "/chairman-message" },
       { label: "capstone projects", link: "/advisory" },
       { label: "projects", link: "/achievement" },
       { label: "activities & collaboration", link: "/why-cse-at-bubt" },
@@ -67,7 +67,7 @@ const navItems = [
     submenu: [
       { label: "our labs", link: "/vision" },
       { label: "student community forum", link: "/mission" },
-      { label: "it service for students", link: "/message" },
+      { label: "it service for students", link: "/chairman-message" },
       { label: "career opportunities", link: "/advisory" },
       { label: "career guidance", link: "/achievement" },
       { label: "cse office of communications", link: "/why-cse-at-bubt" },
