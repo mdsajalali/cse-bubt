@@ -26,7 +26,7 @@ export default function Cover({
             <>
               <span className="text-gray-300">/</span>
               <Link href={`/${subTitleLink}`}>
-                <h2 className="text-[16px] font-medium capitalize text-gray-300">
+                <h2 className="text-[16px] font-medium capitalize text-[#1fdfdf]">
                   {subTitle}
                 </h2>
               </Link>

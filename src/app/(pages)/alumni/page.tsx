@@ -20,7 +20,7 @@ const tabs = [
   },
 ];
 
-export default function AlumniTabs() {
+export default function Alumni() {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
