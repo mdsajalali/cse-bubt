@@ -11,8 +11,11 @@ const navItems = [
     submenu: [
       { label: "Vision of CSE", link: "/vision" },
       { label: "Mission of CSE", link: "/mission" },
-      { label: "chairman-message from the Chairman", link: "/chairman-message" },
-      { label: "Industry Advisory Panel", link: "/advisory" },
+      {
+        label: "chairman-message from the Chairman",
+        link: "/chairman-message",
+      },
+      { label: "Industry Advisory Panel", link: "/industry-advisory-panel" },
       { label: "Achievement", link: "/achievement" },
       { label: "Why CSE at BUBT?", link: "/why-cse-at-bubt" },
     ],
@@ -30,7 +33,7 @@ const navItems = [
       { label: "admission information", link: "/vision" },
       { label: "tuition fee & waiver", link: "/mission" },
       { label: "admission requirements", link: "/chairman-message" },
-      { label: "apply online", link: "/advisory" },
+      { label: "apply online", link: "/industry-advisory-panel" },
     ],
   },
   {
@@ -39,7 +42,7 @@ const navItems = [
       { label: "Faculty members", link: "/vision" },
       { label: "lab assistants", link: "/mission" },
       { label: "it officers", link: "/chairman-message" },
-      { label: "administrative staffs", link: "/advisory" },
+      { label: "administrative staffs", link: "/industry-advisory-panel" },
     ],
   },
   {
@@ -48,7 +51,7 @@ const navItems = [
       { label: "class routine", link: "/vision" },
       { label: "exam routine", link: "/mission" },
       { label: "study tour", link: "/chairman-message" },
-      { label: "industry visit", link: "/advisory" },
+      { label: "industry visit", link: "/industry-advisory-panel" },
     ],
   },
   {
@@ -57,7 +60,7 @@ const navItems = [
       { label: "research field", link: "/vision" },
       { label: "research laboratories", link: "/mission" },
       { label: "published articles", link: "/chairman-message" },
-      { label: "capstone projects", link: "/advisory" },
+      { label: "capstone projects", link: "/industry-advisory-panel" },
       { label: "projects", link: "/achievement" },
       { label: "activities & collaboration", link: "/why-cse-at-bubt" },
     ],
@@ -68,7 +71,7 @@ const navItems = [
       { label: "our labs", link: "/vision" },
       { label: "student community forum", link: "/mission" },
       { label: "it service for students", link: "/chairman-message" },
-      { label: "career opportunities", link: "/advisory" },
+      { label: "career opportunities", link: "/industry-advisory-panel" },
       { label: "career guidance", link: "/achievement" },
       { label: "cse office of communications", link: "/why-cse-at-bubt" },
     ],
