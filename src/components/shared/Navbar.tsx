@@ -31,7 +31,7 @@ const navItems = [
     title: "Admission",
     submenu: [
       { label: "admission information", link: "/admission-information" },
-      { label: "tuition fee & waiver", link: "/mission" },
+      { label: "tuition fee & waiver", link: "/tuition-fee&waiver" },
       { label: "admission requirements", link: "/admission-requirement" },
       { label: "apply online", link: "https://admission.bubt.edu.bd" },
     ],
