@@ -23,7 +23,7 @@ const navItems = [
   {
     title: "Program",
     submenu: [
-      { label: "graduate", link: "/vision" },
+      { label: "graduate", link: "/graduate-program" },
       { label: "undergraduate", link: "/mission" },
     ],
   },
