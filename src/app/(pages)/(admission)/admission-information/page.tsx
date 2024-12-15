@@ -9,7 +9,7 @@ export default function page() {
         heading="Admission Information"
         title="Admission Information"
         subTitle="Admission"
-        subTitleLink="/admission-information"
+        subTitleLink="admission-information"
         mainTitle="Home"
         titleLink="/"
       />
