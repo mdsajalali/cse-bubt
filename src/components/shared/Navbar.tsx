@@ -68,7 +68,7 @@ const navItems = [
   {
     title: "Resources & Facilities",
     submenu: [
-      { label: "our labs", link: "/vision" },
+      { label: "our labs", link: "/our-labs" },
       { label: "student community forum", link: "https://test.bubt.edu.bd" },
       { label: "it service for students", link: "/itservice-for-student" },
       {
