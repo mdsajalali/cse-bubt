@@ -41,7 +41,7 @@ export default function page() {
         titleLink="/"
       />
       <Container>
-        <div className="w-full py-10 md:w-1/2">
+        <div className="w-full pt-10 pb-5 md:w-1/2">
           <h1 className="text-2xl font-bold uppercase text-gray-800 md:text-3xl">
             Published <span className="text-primary">Articles</span>
           </h1>

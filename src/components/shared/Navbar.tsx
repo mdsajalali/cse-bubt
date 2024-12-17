@@ -69,9 +69,12 @@ const navItems = [
     title: "Resources & Facilities",
     submenu: [
       { label: "our labs", link: "/vision" },
-      { label: "student community forum", link: "/mission" },
-      { label: "it service for students", link: "/chairman-message" },
-      { label: "career opportunities", link: "/industry-advisory-panel" },
+      { label: "student community forum", link: "https://test.bubt.edu.bd" },
+      { label: "it service for students", link: "/itservice-for-student" },
+      {
+        label: "career opportunities",
+        link: "https://www.bubt.edu.bd/Home/page_details/Career_Guidance_Office",
+      },
       { label: "career guidance", link: "/achievement" },
       { label: "cse office of communications", link: "/why-cse-at-bubt" },
     ],
