@@ -59,7 +59,7 @@ const navItems = [
     submenu: [
       { label: "research field", link: "/vision" },
       { label: "research laboratories", link: "/research-laboratories" },
-      { label: "published articles", link: "/chairman-message" },
+      { label: "published articles", link: "/published-articles" },
       { label: "capstone projects", link: "/industry-advisory-panel" },
       { label: "projects", link: "/research-projects" },
       { label: "activities & collaboration", link: "/why-cse-at-bubt" },
