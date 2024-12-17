@@ -49,7 +49,7 @@ const navItems = [
     title: "Students",
     submenu: [
       { label: "class routine", link: "/class-routine" },
-      { label: "exam routine", link: "/mission" },
+      { label: "exam routine", link: "/exam-routine" },
       { label: "study tour", link: "/chairman-message" },
       { label: "industry visit", link: "/industry-advisory-panel" },
     ],
