@@ -21,6 +21,7 @@ export default function Page() {
       <Cover
         heading="CSE Class Routine"
         title="All Class Routine"
+        subTitle="Student"
         mainTitle="Home"
         titleLink="/"
       />

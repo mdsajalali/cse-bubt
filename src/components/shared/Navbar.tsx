@@ -50,8 +50,8 @@ const navItems = [
     submenu: [
       { label: "class routine", link: "/class-routine" },
       { label: "exam routine", link: "/exam-routine" },
-      { label: "study tour", link: "/chairman-message" },
-      { label: "industry visit", link: "/industry-advisory-panel" },
+      { label: "study tour", link: "/study-tour" },
+      { label: "industry visit", link: "/industry-visit" },
     ],
   },
   {
