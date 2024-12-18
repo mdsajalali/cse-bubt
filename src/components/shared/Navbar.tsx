@@ -76,7 +76,7 @@ const navItems = [
         link: "https://www.bubt.edu.bd/Home/page_details/Career_Guidance_Office",
       },
       { label: "career guidance", link: "/career-guidance" },
-      { label: "cse office of communications", link: "/why-cse-at-bubt" },
+      { label: "cse office of communications", link: "/cse-news" },
     ],
   },
 ];
