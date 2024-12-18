@@ -57,7 +57,7 @@ const navItems = [
   {
     title: "Research",
     submenu: [
-      { label: "research field", link: "/vision" },
+      { label: "research field", link: "/research-field" },
       { label: "research laboratories", link: "/research-laboratories" },
       { label: "published articles", link: "/published-articles" },
       { label: "capstone projects", link: "/capstone-project" },
