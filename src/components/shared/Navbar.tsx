@@ -60,7 +60,7 @@ const navItems = [
       { label: "research field", link: "/vision" },
       { label: "research laboratories", link: "/research-laboratories" },
       { label: "published articles", link: "/published-articles" },
-      { label: "capstone projects", link: "/industry-advisory-panel" },
+      { label: "capstone projects", link: "/capstone-project" },
       { label: "projects", link: "/research-projects" },
       {
         label: "activities & collaboration",
