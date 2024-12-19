@@ -39,7 +39,7 @@ const navItems = [
   {
     title: "People",
     submenu: [
-      { label: "Faculty members", link: "/vision" },
+      { label: "Faculty members", link: "/faculty" },
       { label: "lab assistants", link: "/mission" },
       { label: "it officers", link: "/chairman-message" },
       { label: "administrative staffs", link: "/industry-advisory-panel" },
