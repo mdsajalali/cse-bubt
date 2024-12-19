@@ -2,32 +2,19 @@
 
 import { useState, useEffect } from "react";
 import Cover from "@/components/shared/Cover";
-import TeachersTab from "@/components/core/TeachersTab";
 import Container from "@/components/shared/Container";
-
-interface Member {
-  name: string;
-  designation: string;
-  qualification: string;
-  phone: string;
-  email: string;
-  image: string;
-}
-
-interface Category {
-  category: string;
-  members: Member[];
-}
+import TeacherTab from "@/components/core/TeacherTab";
+import { CategoryProps, MemberProps } from "@/types";
 
 export default function PeoplePage() {
-  const [data, setData] = useState<Category[]>([]);
+  const [data, setData] = useState<CategoryProps[]>([]);
   const [activeTab, setActiveTab] = useState<string>("Lab Assistants");
-  const [filteredData, setFilteredData] = useState<Member[]>([]);
+  const [filteredData, setFilteredData] = useState<MemberProps[]>([]);
 
   useEffect(() => {
-    fetch("/teachers.json")
+    fetch("/teacher.json")
       .then((res) => res.json())
-      .then((data: Category[]) => {
+      .then((data: CategoryProps[]) => {
         setData(data);
         const defaultCategory = data.find(
           (category) => category.category === "Lab Assistants",
@@ -57,10 +44,10 @@ export default function PeoplePage() {
         titleLink="/"
       />
       <Container>
-        <div className="flex my-5 flex-col gap-5 md:gap-20 p-4 md:flex-row">
-          <div className="w-full flex flex-col gap-2 md:w-1/4">
+        <div className="my-5 flex flex-col gap-5 p-4 md:flex-row md:gap-20">
+          <div className="flex w-full flex-col gap-2 md:w-1/4">
             <h2 className="mb-4 text-lg font-bold">People</h2>
-            <TeachersTab
+            <TeacherTab
               tabs={tabs}
               activeTab={activeTab}
               onTabClick={(tab) => setActiveTab(tab)}

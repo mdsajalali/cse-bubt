@@ -1,12 +1,9 @@
+import { TabsProps } from "@/types";
 import React from "react";
 
-interface TabsProps {
-  tabs: string[];
-  activeTab: string;
-  onTabClick: (tab: string) => void;
-}
 
-const TeachersTab = ({ tabs, activeTab, onTabClick }: TabsProps) => {
+
+const TeacherTab = ({ tabs, activeTab, onTabClick }: TabsProps) => {
   return (
     <>
       {tabs.map((tab) => (
@@ -26,4 +23,4 @@ const TeachersTab = ({ tabs, activeTab, onTabClick }: TabsProps) => {
   );
 };
 
-export default TeachersTab;
+export default TeacherTab;

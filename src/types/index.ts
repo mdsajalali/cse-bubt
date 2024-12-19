@@ -46,3 +46,28 @@ export interface TabFilterProps {
   activeTab: string;
   setActiveTab: (tab: string) => void;
 }
+
+// MemberProps
+export interface MemberProps {
+  name: string;
+  designation: string;
+  qualification: string;
+  phone: string;
+  email: string;
+  image: string;
+}
+
+
+// CategoryProps
+export interface CategoryProps {
+  category: string;
+  members: MemberProps[];
+}
+
+
+//TabsProps
+export interface TabsProps {
+  tabs: string[];
+  activeTab: string;
+  onTabClick: (tab: string) => void;
+}
