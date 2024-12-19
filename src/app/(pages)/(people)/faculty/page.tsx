@@ -26,6 +26,8 @@ export default function Page() {
     "Lecturers",
   ];
 
+  //   TODO: Tabs based data filter
+
   const filteredFaculty: FacultyProps[] =
     activeTab === "All"
       ? facultyData
