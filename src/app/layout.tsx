@@ -4,6 +4,12 @@ import ScrollTop from "@/components/core/ScrollTop";
 import TopNavbar from "@/components/core/nav/TopNavbar";
 import Navbar from "@/components/shared/Navbar";
 import Footer from "@/components/shared/Footer";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "CSE:BUBT - Bangladesh University of Business and Technology",
@@ -16,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={roboto.className}>
       <body>
         {/* Navbar */}
         <TopNavbar />
