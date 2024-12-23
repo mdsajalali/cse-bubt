@@ -34,7 +34,15 @@ export default function TopNavbar() {
             <div className="flex flex-col items-center gap-2 md:flex-row md:items-center">
               <div className="flex flex-wrap justify-center gap-4">
                 {iconData.map(({ src, alt }) => (
-                  <Image key={alt} src={src} alt={alt} width={20} height={20} />
+                  <div className="relative h-5 w-5 mt-3 xl:mt-0">
+                    <Image
+                      key={alt}
+                      src={src}
+                      alt={alt}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
                 ))}
                 <div className="xl:hidden">
                   <NavSlider />

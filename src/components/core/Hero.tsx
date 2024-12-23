@@ -62,7 +62,7 @@ export default function Hero() {
                   </h1>
                   <h2 className="mb-2 px-10 text-xl font-semibold md:px-0 md:text-2xl">
                     We Provide B.SC. in CSE{" "}
-                    <span className="text-primary">
+                    <span className="text-red-500">
                       <ReactTyped
                         strings={["(Regular)", "(Diploma Holders)"]}
                         typeSpeed={40}
