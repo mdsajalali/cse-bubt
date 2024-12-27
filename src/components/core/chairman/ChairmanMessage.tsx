@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ChairmanMessage() {
   return (
@@ -37,9 +38,11 @@ export default function ChairmanMessage() {
       </div>
 
       {/* Read More Button */}
-      <button className="hover:bg-primary-dark focus:ring-primary-light mt-4 rounded-lg bg-primary px-6 py-2 text-white shadow-md focus:ring-2 focus:ring-offset-1">
-        Read More
-      </button>
+      <Link href="/chairman-message">
+        <button className="hover:bg-primary/80 duration-300 focus:ring-primary-light mt-4 rounded-lg bg-primary px-6 py-2 text-white shadow-md focus:ring-2 focus:ring-offset-1">
+          Read More
+        </button>
+      </Link>
     </div>
   );
 }
