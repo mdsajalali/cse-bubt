@@ -7,7 +7,7 @@ export default function ChairmanSidebar() {
     {
       text: "OBE - Outcome Based Education",
       image: "/gob.png",
-      link: "/faculty",
+      link: "/obe",
     },
     { text: "AML-LAB", image: "/aml2.png", link: "/research-field" },
     { text: "Research Area", image: "/ra1.png", link: "/research-field" },
