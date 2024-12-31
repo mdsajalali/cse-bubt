@@ -4,10 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const clubData = [
-  { title: "IEEECS", link: "/IEEE-CS-About", image: "/cse_news/ieeecs.jpg" },
+  { title: "IEEECS", link: "/research-field", image: "/cse_news/ieeecs.jpg" },
   {
     title: "Conferences",
-    link: "/all-conference",
+    link: "/research-field",
     image: "/cse_news/conference.jpg",
   },
   {
@@ -15,17 +15,21 @@ const clubData = [
     link: "/research-field",
     image: "/cse_news/research.jpg",
   },
-  { title: "Events", link: "/all-events", image: "/cse_news/events.jpg" },
-  { title: "Notice", link: "/all-notices", image: "/cse_news/notice.jpg" },
-  { title: "Workshop", link: "/all-workshop", image: "/cse_news/workshop.jpg" },
+  { title: "Events", link: "/research-field", image: "/cse_news/events.jpg" },
+  { title: "Notice", link: "/research-field", image: "/cse_news/notice.jpg" },
+  {
+    title: "Workshop",
+    link: "/research-field",
+    image: "/cse_news/workshop.jpg",
+  },
   {
     title: "BUBT IT Club",
-    link: "/it-club",
+    link: "/research-field",
     image: "/cse_news/it.jpg",
   },
   {
     title: "BUBT Sports Club",
-    link: "/sports-club",
+    link: "/research-field",
     image: "/cse_news/sports.jpg",
   },
 ];
